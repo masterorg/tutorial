@@ -133,6 +133,7 @@ public class NavigationView extends ViewPart {
         p3.addChild(o);
         o = new TreeObject("Dusan");
         p3.addChild(o);
+        p3.addChild(new TreeObject("Mama"));
 
         TreeParent root = new TreeParent("");
         root.addChild(p1);
